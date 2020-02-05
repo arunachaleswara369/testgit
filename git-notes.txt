@@ -1,0 +1,19 @@
+which git   ==> To check whether git has been installed or not
+
+git config --global user.email  ==> Shows if the EMail has been configured for commits to GitHub Account
+                                ==> Need to provide as per GitHub account EMail installed
+
+git config --global user.email "arunachaleswara369@gmail.com"   ==> If not configured, configure as it shown here
+
+git config user.email "arunachaleswara369@gmail.com"            ==> To configure for single repository rather than global (all)
+
+git status      ==> ERROR: fatal: not a git repository (or any of the parent directories): .git
+                ==> If we run "git status" without initialization, we get the above ERROR
+
+git init        ==> To initialize git in the current directory
+                ==> Initialized empty Git repository in /Users/damodarpolani/Documents/WebDev/ruby/git/.git/
+
+git status      ==> Shows Untracked files (Red) + Changes to be comitted (Green)
+
+
+
